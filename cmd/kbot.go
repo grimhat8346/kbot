@@ -53,7 +53,7 @@ to quickly create a Cobra application.`,
 				case "what":
 					err = m.Send(fmt.Sprintln("I'm new bot I can't do much now, you can try command money"))
 				case "money":
-					m.Send(fmt.Sprintln("Sho me the money!"))
+					m.Send(fmt.Sprintln("Show me the money!"))
 				default:
 					m.Send(fmt.Sprintln("I'm a new kbot and just learning"))			
 			}
