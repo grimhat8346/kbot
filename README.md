@@ -4,6 +4,8 @@ DevOps application from scratch
 
 Telegram bot for learnig Golang during course of DevOps
 
+https://t.me/grimhat_bot
+
 Instructions:
 
 Launch a codespace with this repo.
