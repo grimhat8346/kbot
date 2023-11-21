@@ -38,3 +38,4 @@ push:
 	docker push ${REGISTRY}/${APP}:${VERSION}-${TARGETARCH}
 clean:
 	rm -rf kbot kbot.exe
+	docker rmi ${REGISTRY}/${APP}:${VERSION}-${TARGETARCH}
