@@ -18,8 +18,7 @@ get:
 	go get
 
 linux: format get
-	CGO_ENABLED=0 GOOS=linux GOARCH=amd64
-	go build -v -o kbot -ldflags "-X="github.com/RuslanRiabokin/kbot_kbot/cmd.appVersion=${VERSION}
+	CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -v -o kbot -ldflags "-X="github.com/RuslanRiabokin/kbot_kbot/cmd.appVersion=${VERSION}
 
 build: linux
 
