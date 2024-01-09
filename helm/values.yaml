@@ -7,6 +7,7 @@ replicaCount: 1
 image:
   repository: grimhat
   tag: "v1.0.5-40adb5a"
+  arch: amd64
 
 secret:
   name: kbot
