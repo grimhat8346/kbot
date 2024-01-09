@@ -1,0 +1,14 @@
+k compapiVersion: v1
+kind: Namespace
+metadata:
+  creationTimestamp: "2023-12-09T17:39:37Z"
+  labels:
+    kubernetes.io/metadata.name: kube-system
+  name: kube-system
+  resourceVersion: "6"
+  uid: 4b476a14-d5a8-4efd-afbf-c2c16814d14d
+spec:
+  finalizers:
+  - kubernetes
+status:
+  phase: Active
