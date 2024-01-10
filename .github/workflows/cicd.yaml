@@ -1,9 +1,6 @@
 name: KBOT-CICD
 
-on: 
-    push:
-      branches: 
-        - develop
+on: push
 jobs: 
     ci: 
         name: CI
@@ -11,7 +8,7 @@ jobs:
 
         steps: 
             - name: Checkout
-              uses: actions/checkout@v3  
+              uses: actions/checkout@v4  
               with:
                 fetch-depth: 0
             
