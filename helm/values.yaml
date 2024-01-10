@@ -4,8 +4,8 @@ replicaCount: 1
 image:
   registry: "ghcr.io"
   repository: "grimhat8346/kbot"
-  tag: "v1.0.6-"
-  os: linix
+  tag: "v1.0.6-138beac"
+  os: linux
   arch: amd64
 secret:
   name: kbot
